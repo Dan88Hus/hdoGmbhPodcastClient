@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hdogmbh.podcast.CreditCardFormActivity">
+
+    <ImageView
+        android:id="@+id/imageViewSoundRecorderActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginscreen2"
+        android:contentDescription="DemanderActivity"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.braintreepayments.cardform.view.CardForm
+        android:id="@+id/card_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnBuy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:text="@string/label_buy_now"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSalesContract"
+        android:layout_width="34dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="62dp"
+        android:buttonTint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/btnBuy"
+        app:layout_constraintStart_toStartOf="@+id/btnBuy" />
+
+    <TextView
+        android:id="@+id/textViewSalesContract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sales_contract"
+        android:textColorLink="@color/txtyazirengi"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBoxSalesContract"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxSalesContract"
+        app:layout_constraintTop_toTopOf="@+id/checkBoxSalesContract" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

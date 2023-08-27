@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name" translatable="false">PODCAST</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Please login</string>
+    <string name="sign_out">Log out</string>
+    <string name="log_out_success">Log out successful</string>
+    <string name="fb_log_out_success">Log out successful</string>
+    <string name="toWhoseName">Unit Price TRY:</string>
+    <string name="gPriceFailed">Get Unit Price Failed</string>
+    <string name="sendDemandDataFailed">Sending Details Failed</string>sendDemandDataFailed
+    <string name="demanNumberZero">Number must be positive integer</string>
+    <string name="demandCreateUser">Create User Failed</string>
+    <string name="unitPriceError">Error in Unit Price</string>
+    <string name="demanFormFill">Please fill the form</string>
+    <string name="demanFormSuccess">Successfully form sent</string>
+    <string name="toWhoseTitle">Please enter name</string>
+    <string name="demanderPurpose">Please enter demanding purpose</string>
+    <string name="demandNumber">Please enter number to be read</string>
+    <string name="demandExplanation">Please enter explanation if you need</string>
+    <string name="demandSend">Continue</string>
+    <string name="orderNumber">Please enter Inquiry number</string>
+    <string name="orderUnitNumber">Please enter Inquiry unit number to record</string>
+    <string name="orderNumberNotFound">"Inquiry number NOT found"</string>
+    <string name="orderNumberDescription">Your Inquiry Number is: </string>
+    <string name="proceedToRecord">Proceed to Record</string>readToRecord
+    <string name="proceedToPlay">Proceed to Play</string>readToRecord
+    <string name="getUnitPriceFailed">List Unit Price failed</string>readToRecord
+    <string name="getReaderLisFailed">List Reader users failed</string>readToRecord
+    <string name="getRecordListFailed">Get record list failed</string>readToRecord
+    <string name="readToRecord">Submission</string>
+    <string name="demandButton">Player</string>
+    <string name="readerFound">Authorized as Submitter</string>
+    <string name="readerNotFound">You are NOT authorized as Submitter</string>
+    <string name="label_buy_now">Purchase</string>
+    <string name="label_purchase_success">Purchase</string>
+    <string name="label_purchase_thanks">"Thank you for purchase"</string>
+    <string name="purchase_complete_form">"Please complete the form"</string>
+    <string name="purchaseConfirmForm">"Confirm purchase: "</string>
+    <string name="purTotal">"Total Price"</string>
+    <string name="purchasePositiveAlert">"Confirm"</string>
+    <string name="purchaseNegativeAlert">"Cancel"</string>
+    <string name="purchase_card_number">"Card Number"</string>
+    <string name="purchase_card_expiry_date">"Card expiry date"</string>
+    <string name="purchase_card_cvv">"Card CVV"</string>
+    <string name="sound_Record">"Record"</string>
+    <string name="sound_Record_Started">"Recording"</string>
+    <string name="sound_Stop">"Stop"</string>
+    <string name="sound_Record_Stopped">"Recording Stopped"</string>
+    <string name="sound_Play">"Play"</string>
+    <string name="sound_Record_Play">"Record Playing"</string>
+    <string name="sound_Upload">"Upload"</string>
+    <string name="sound_Upload_Success">"Upload success"</string>
+    <string name="sound_Upload_Failed">"Upload failed"</string>
+    <string name="facebook_app_id" translatable="false">111</string>
+    <string name="fb_login_protocol_scheme" translatable="false">111</string>
+    <string name="facebook_client_token" translatable="false">111</string>
+    <string name="deleted_records">Podcast has been deleted</string>
+    <string name="rate_voice">Rate Podcast:</string>
+    <string name="ok_rate">Ok</string>
+    <string name="cancel_rate">Cancel</string>
+    <string name="thanks_feedback">Thank you for feedback</string>
+    <string name="sales_contract"><a href="https://hdogmbh.de/mesafeliSatisSozlesmesi"> I confirm by \'Distance sales contract\'</a></string>
+    <string name="sales_contract_error">Please confirm distance sales contract</string>
+    <string name="googleServer_client_id" translatable="false">1111-cjh0cghqmvd4kdjeutl46e8ua8t8pfln.apps.googleusercontent.com</string>
+</resources>

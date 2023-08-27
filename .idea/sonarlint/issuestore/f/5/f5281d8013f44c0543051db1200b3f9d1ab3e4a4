@@ -1,0 +1,58 @@
+
+f
+java:S1192ˆ"JDefine a constant instead of duplicating this literal "userEmail" 3 times.(–¥¯øıÿÿÿÿ
+e
+java:S1192†"IDefine a constant instead of duplicating this literal "userName" 3 times.(ùœíÂşÿÿÿÿ
+c
+java:S1192‡"LDefine a constant instead of duplicating this literal "userSurname" 3 times.(Æ‘Ã“
+>
+java:S1604c"(Make this anonymous inner class a lambda(Òˆò
+C
+java:S1604|"(Make this anonymous inner class a lambda(àÛ¿Åıÿÿÿÿ
+_
+java:S2259€"HA "NullPointerException" could be thrown; "jsonObject" is nullable here.(€ëî±
+k
+java:S3008)"URename this field "RC_SIGN_IN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çæ®õ
+j
+java:S3008*"TRename this field "fbRC_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î‚ñ
+t
+java:S1450-"^Remove the "callbackManager" field and declare it as a local variable in the relevant methods.(™Éò¬
+p
+java:S1450,"ZRemove the "loginButton" field and declare it as a local variable in the relevant methods.(®¤½¯
+Q
+java:S1854\";Remove this useless assignment to local variable "account".(ôÎ×
+P
+java:S1874;":Remove this use of "setReadPermissions"; it is deprecated.(¢Ğì±
+œ
+java:S1186@"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(àÄŠÊüÿÿÿÿ
+–
+java:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹ö›n
+œ
+java:S1186J"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–¿ÿ¶ûÿÿÿÿ
+B
+java:S1481\",Remove this unused "account" local variable.(ôÎ×
+U
+java:S1874¢">Remove this use of "startActivityForResult"; it is deprecated.(ØãÂà
+f
+java:S1874¦"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÉÎÍïıÿÿÿÿ
+R	java:S125©"<This block of commented-out lines of code should be removed.(˜Î‹Ã
+W
+java:S1854´";Remove this useless assignment to local variable "account".(»±Åøÿÿÿÿ
+U
+java:S1854¹">Remove this useless assignment to local variable "personName".(¬Ù†‰
+S
+java:S1854½"<Remove this useless assignment to local variable "personId".(é¶¤›
+[
+java:S1854¾"?Remove this useless assignment to local variable "personPhoto".(ÆúÍ úÿÿÿÿ
+H
+java:S1481´",Remove this unused "account" local variable.(»±Åøÿÿÿÿ
+F
+java:S1481¹"/Remove this unused "personName" local variable.(¬Ù†‰
+D
+java:S1481½"-Remove this unused "personId" local variable.(é¶¤›
+L
+java:S1481¾"0Remove this unused "personPhoto" local variable.(ÆúÍ úÿÿÿÿ
+Z
+java:S3398{"?Move this method into the anonymous class declared at line 110.(³‡÷êÿÿÿÿÿ
+C
+java:S1068*"-Remove this unused "fbRC_code" private field.(Î‚ñ

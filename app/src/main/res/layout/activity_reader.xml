@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReaderActivity">
+
+    <ImageView
+        android:id="@+id/imageViewReaderActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loginscreen2" />
+
+    <EditText
+        android:id="@+id/editTextOrderNumber"
+        android:layout_width="384dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/orderNumber"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextOrderUnitNumber"
+        app:layout_constraintEnd_toEndOf="@+id/editTextOrderUnitNumber"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextOrderUnitNumber"
+        app:layout_constraintTop_toTopOf="@+id/imageViewReaderActivity"
+        app:layout_constraintVertical_bias="0.915" />
+
+    <EditText
+        android:id="@+id/editTextOrderUnitNumber"
+        android:layout_width="381dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="212dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/orderUnitNumber"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/toRecord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/toRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/proceedToRecord"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+
+C
+java:S16047"(Make this anonymous inner class a lambda(ÍÜ£ıùÿÿÿÿ
+C
+java:S1604I"(Make this anonymous inner class a lambda(œ”ùîøÿÿÿÿ
+z
+java:S1450"_Remove the "textViewFileName" field and declare it as a local variable in the relevant methods.(·íÜ‚ÿÿÿÿÿ
+Q	java:S125("<This block of commented-out lines of code should be removed.(‚‰É
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(Å³ë”ıÿÿÿÿ
+U	java:S899h";Do something with the "boolean" value returned by "delete".(åóçØúÿÿÿÿ
+i
+java:S4042h"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(åóçØúÿÿÿÿ
